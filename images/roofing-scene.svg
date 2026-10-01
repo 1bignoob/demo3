@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="760" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#bbcbbf"/>
+      <stop offset=".55" stop-color="#d9c8aa"/>
+      <stop offset="1" stop-color="#e69a66"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="300" y1="250" x2="600" y2="570" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3e9d8"/>
+      <stop offset="1" stop-color="#d8c5aa"/>
+    </linearGradient>
+    <linearGradient id="roof" x1="340" y1="160" x2="530" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34463d"/>
+      <stop offset="1" stop-color="#182820"/>
+    </linearGradient>
+    <linearGradient id="sunset" x1="150" y1="310" x2="760" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e9a977" stop-opacity="0"/>
+      <stop offset="1" stop-color="#d77c52" stop-opacity=".6"/>
+    </linearGradient>
+    <pattern id="shingles" width="48" height="26" patternUnits="userSpaceOnUse">
+      <path d="M0 1h48M24 1v12M0 13h48M0 13v13m48-13v13" stroke="#829087" stroke-opacity=".28" stroke-width="1.5"/>
+    </pattern>
+    <filter id="shadow" x="80" y="100" width="690" height="510" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="19"/>
+    </filter>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h760v600H0z"/>
+  <path fill="url(#sunset)" d="M0 0h760v600H0z"/>
+  <circle cx="605" cy="144" r="59" fill="#f4d4a2" fill-opacity=".83"/>
+  <circle cx="605" cy="144" r="83" stroke="#fff3d8" stroke-opacity=".2"/>
+  <path d="M0 354c97-61 162-46 238-11 77 35 144 40 234 10 99-33 172-13 288 13v234H0V354Z" fill="#657969" fill-opacity=".46"/>
+  <path d="M0 430c114-43 214-22 326 9 93 25 210 22 434-25v186H0V430Z" fill="#3b5545" fill-opacity=".83"/>
+  <ellipse cx="441" cy="488" fill="#14251d" fill-opacity=".36" filter="url(#shadow)" rx="230" ry="54"/>
+  <path d="m167 320 260-205 268 205v228H167V320Z" fill="url(#wall)"/>
+  <path d="m132 320 292-226 306 226-36 16-270-198-259 198-33-16Z" fill="#263a30"/>
+  <path d="m132 320 292-226 306 226-36 16-270-198-259 198-33-16Z" fill="url(#shingles)"/>
+  <path d="m424 94 306 226-36 16-270-198V94Z" fill="url(#roof)"/>
+  <path d="M424 94v44l270 198 36-16L424 94Z" fill="url(#shingles)" opacity=".9"/>
+  <path d="m132 320 292-226v44L165 347l-33-27Z" fill="#40554a"/>
+  <path d="m132 320 292-226v44L165 347l-33-27Z" fill="url(#shingles)"/>
+  <path d="m424 94 15 12-277 214-19-13L424 94Z" fill="#9ca79c" fill-opacity=".46"/>
+  <path d="M167 337h528v16H167z" fill="#b87b53"/>
+  <path d="M189 353h486v195H189z" fill="url(#wall)"/>
+  <path d="M450 353h225v195H450z" fill="#d9c6a9" fill-opacity=".7"/>
+  <path d="M223 390h102v113H223z" fill="#60756a"/>
+  <path d="M236 402h76v89h-76z" fill="#bdd0c4"/>
+  <path d="M273.5 402v89M236 446.5h76" stroke="#687e71" stroke-width="5"/>
+  <path d="M501 390h108v158H501z" fill="#344c3d"/>
+  <path d="M513 404h84v79h-84z" fill="#bdc9b7"/>
+  <path d="M555 404v79m-42-39.5h84" stroke="#6f8575" stroke-width="5"/>
+  <path d="M532 519a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z" fill="#e69a66"/>
+  <path d="M477 548V370h15v178" fill="#bd8157" fill-opacity=".8"/>
+  <path d="M68 548c18-58 31-104 41-156 7 40 22 92 42 156H68Z" fill="#344d3a"/>
+  <path d="M87 446c-30-7-44-24-46-46 24 1 43 14 46 46Zm5-30c-2-28 8-47 27-58 8 23 0 45-27 58Zm10 42c17-27 38-37 61-31-9 24-29 36-61 31Z" fill="#49644c"/>
+  <path d="M670 548c13-42 23-78 31-118 6 31 16 69 29 118h-60Z" fill="#344d3a"/>
+  <path d="M683 470c-24-6-35-19-36-36 19 1 33 11 36 36Zm4-24c-2-22 7-37 21-46 7 18 0 36-21 46Zm8 33c14-21 30-29 48-24-7 19-23 28-48 24Z" fill="#49644c"/>
+  <path d="M0 548h760v52H0z" fill="#253d30"/>
+  <path d="M0 552c153-13 279-9 404-4 128 5 220 7 356-4" stroke="#91a08e" stroke-opacity=".38" stroke-width="2"/>
+  <path d="M289 338h294" stroke="#f8ebd9" stroke-opacity=".65" stroke-width="2"/>
+</svg>
